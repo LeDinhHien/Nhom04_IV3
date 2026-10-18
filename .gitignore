@@ -1,0 +1,30 @@
+# Maven & NetBeans build directories
+/target/
+/build/
+/dist/
+/nbproject/private/
+
+# Java compiled classes and archives
+*.class
+*.jar
+*.war
+*.ear
+
+# SQLite database and journal files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Temporary file transfer parts, cache, and local client config
+*.part
+client_config.properties
+.chatapp_cache/
+.chatapp_server_cache/
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
